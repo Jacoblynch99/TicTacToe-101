@@ -91,7 +91,11 @@ const changeMarker = () => {
 
 // This "resetBoard" function is called when the user clicks on the "Restart" button.
 const resetBoard = () => {
-  
+  board = [
+    ["","",""],
+    ["","",""],
+    ["","",""]
+  ]
    
     const squares = document.getElementsByTagName("TD")
   
